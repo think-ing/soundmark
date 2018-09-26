@@ -1,0 +1,23 @@
+{
+    "a":[
+      "1、先发前元音[e]，同时舌尖轻触下齿",
+      "2、然后很快滑向[ə]音",
+      "3、发音过程中双唇半开"
+    ],
+    "b":[],
+    "c":[
+        {
+          "name":"发[eə]这个音的常见字母组合有are,air,ear,ere;;例如：",
+          "values":[
+            "share-sh-are- [ʃeə] 共享",
+            "dare-d-are- [deə] 敢",
+            "repair-rep-air- [rɪ'peə] 修理",
+            "hair-h-air- [heə] 头发",
+            "bear-b-ear- [beə] 熊",
+            "wear-w-ear- [weə] 穿",
+            "where-wh-ere- [weə] 哪里",
+            "there-th-ere- [ðeə] 那里"
+            ]
+        }
+    ]
+}

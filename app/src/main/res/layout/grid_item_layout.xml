@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mzw.soundmark.GridItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2A2A2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#2080D0"
+        android:text="TextView" />
+</com.mzw.soundmark.GridItemLayout>

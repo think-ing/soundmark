@@ -1,0 +1,28 @@
+{
+    "a":[
+          "1、和汉语普通话中\"的 de,了 le,么 me\"的韵母相似。",
+          "2、舌身平放，嘴稍稍张开",
+          "3、舌中部伸向硬颚，不要与之接触，舌位比[ɜ:]略低",
+          "4、口部肌肉，舌头一定要放松"
+    ],
+    "b":[],
+    "c":[
+        {
+          "name":"在非重读音节中发/ə/的常见字母及字母组合a,e,o,u,or,er,例如：",
+          "values":[
+                "along--a-long /əˈlɒŋ/ 沿着",
+                "banana-b-a-nana /bəˈnɑ:nə/ 香蕉",
+                "open-op-e-n /ˈəʊpən/ 开",
+                "president-presid-e-nt /ˈprezɪdənt/ 总统",
+                "today-t-o-day /təˈdeɪ/ 今天",
+                "second-sec-o-nd /ˈsekənd/ 第二",
+                "support-s-u-pport /səˈpɔ:t/ 支持",
+                "industry-ind-u-stry /ˈɪndəstri/ 工业",
+                "factor-fact-or- /ˈfæktə/ 因素",
+                "humor-hum-or- /'hju:mə/ 幽默",
+                "meter-met-er- /ˈmi:tə/ 米",
+                "mother-moth-er- /ˈmʌðə/ 母亲"
+            ]
+        }
+    ]
+}

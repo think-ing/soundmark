@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biao_er_text_back"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_h"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="48个英语国际音标"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/id_right_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_a"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:visibility="invisible"
+            android:src="@mipmap/laba"/>
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="1dp"
+                        android:background="@drawable/bg_01">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:ems="1"
+                                android:textSize="25sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="元音"/>
+                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                            <TableLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:background="@color/biao_er_text_back"
+                                        android:text="长元音"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_i_sound2" style="@style/yinbiao_text" android:text="/iː/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_er_sound" style="@style/yinbiao_text" android:text="/ɜː/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_a_sound2" style="@style/yinbiao_text" android:text="/ɑː/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_o_sound2" style="@style/yinbiao_text" android:text="/ɔː/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_u_sound2" style="@style/yinbiao_text" android:text="/uː/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                </TableRow>
+                                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:background="@color/biao_er_text_back"
+                                        android:text="短元音"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_i_sound" style="@style/yinbiao_text" android:text="/i/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_e_sound" style="@style/yinbiao_text" android:text="/e/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_an_sound" style="@style/yinbiao_text" android:text="/æ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_eE_sound" style="@style/yinbiao_text" android:text="/ə/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_E_sound" style="@style/yinbiao_text" android:text="/ʌ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_o_sound" style="@style/yinbiao_text" android:text="/ɒ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_u_sound" style="@style/yinbiao_text" android:text="/ʊ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                </TableRow>
+                                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:background="@color/biao_er_text_back"
+                                        android:text="双元音"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_ei" style="@style/yinbiao_text" android:text="/ei/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_ai" style="@style/yinbiao_text" android:text="/ai/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_oi" style="@style/yinbiao_text" android:text="/ɔi/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_eu" style="@style/yinbiao_text" android:text="/əʊ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_ao" style="@style/yinbiao_text" android:text="/aʊ/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_ir" style="@style/yinbiao_text" android:text="/iə/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_er" style="@style/yinbiao_text" android:text="/eə/"/>
+                                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                    <TextView android:onClick="textClick" android:id="@+id/id_text_uer" style="@style/yinbiao_text" android:text="/ʊə/"/>
+                                </TableRow>
+                            </TableLayout>
+                        </TableRow>
+                        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:ems="1"
+                                android:textSize="25sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="辅音"/>
+                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                            <TableLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:background="@color/biao_er_text_back"
+                                        android:text="清辅音"/>
+
+                                    <TableLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_p" style="@style/yinbiao_text" android:text="/p/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_t" style="@style/yinbiao_text" android:text="/t/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_k" style="@style/yinbiao_text" android:text="/k/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_f" style="@style/yinbiao_text" android:text="/f/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_si" style="@style/yinbiao_text" android:text="/θ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_s" style="@style/yinbiao_text" android:text="/s/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_ss" style="@style/yinbiao_text" android:text="/ʃ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_h" style="@style/yinbiao_text" android:text="/h/"/>
+                                        </TableRow>
+                                        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_tss" style="@style/yinbiao_text" android:text="/tʃ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_ts" style="@style/yinbiao_text" android:text="/ts/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_tr" style="@style/yinbiao_text" android:text="/tr/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                        </TableRow>
+                                    </TableLayout>
+                                </TableRow>
+                                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" >
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:background="@color/biao_er_text_back"
+                                        android:text="浊辅音"/>
+                                    <TableLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_b" style="@style/yinbiao_text" android:text="/b/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_d" style="@style/yinbiao_text" android:text="/d/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_g" style="@style/yinbiao_text" android:text="/g/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_v" style="@style/yinbiao_text" android:text="/v/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_qq" style="@style/yinbiao_text" android:text="/ð/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_z" style="@style/yinbiao_text" android:text="/z/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_n3" style="@style/yinbiao_text" android:text="/ʒ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_r" style="@style/yinbiao_text" android:text="/r/"/>
+                                        </TableRow>
+                                        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_d3" style="@style/yinbiao_text" android:text="/dʒ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_dr" style="@style/yinbiao_text" android:text="/dr/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_dz" style="@style/yinbiao_text" android:text="/dz/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                        </TableRow>
+                                        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ffffff" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" >
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_j" style="@style/yinbiao_text" android:text="/j/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_w" style="@style/yinbiao_text" android:text="/w/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_m" style="@style/yinbiao_text" android:text="/m/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_n" style="@style/yinbiao_text" android:text="/n/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_ng" style="@style/yinbiao_text" android:text="/ŋ/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                            <TextView android:onClick="textClick" android:id="@+id/id_text_l" style="@style/yinbiao_text" android:text="/l/"/>
+                                            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#ffffff" />
+                                        </TableRow>
+                                    </TableLayout>
+                                </TableRow>
+                            </TableLayout>
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

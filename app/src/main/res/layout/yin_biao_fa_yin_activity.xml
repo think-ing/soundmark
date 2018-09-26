@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEBEB">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_h"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="48个英语国际音标"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/id_right_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_a"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:src="@mipmap/laba"/>
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#A2A2A2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="发音方法"/>
+            <LinearLayout
+                android:id="@+id/id_layout_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="发音秘诀"/>
+            <LinearLayout
+                android:id="@+id/id_layout_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="发音规则"/>
+            <LinearLayout
+                android:id="@+id/id_layout_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_h"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="48个英语国际音标"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/id_biao_er"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_a"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:padding="2dp"
+            android:text="详细\n分类"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#A2A2A2" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/title_text_size"
+                android:text="20个元音音标：" />
+            <com.mzw.soundmark.MyGridView
+                android:id="@+id/id_grid_yuan_yin"
+                style="@style/my_grid_view"/>
+
+            <TextView
+                style="@style/title_text_size"
+                android:text="28个辅音音标：" />
+            <com.mzw.soundmark.MyGridView
+                android:id="@+id/id_grid_fu_yin"
+                style="@style/my_grid_view"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+{
+    "a":[
+      "1、发音时舌后部抬起",
+      "2、双唇收圆，并向前突出",
+      "3、[ɔ:]是长元音,发音稍长些。"
+    ],
+    "b":[
+      "1.张开口，牙床接近半开，但张口程度比/a/要小，和英音中的[ɔ:]相对应，但比英音中的[ɔ:]要大。",
+      "2.舌身低平后缩，舌后部抬起，舌位高于/a/音。",
+      "3.双唇稍稍收圆，并向前突出。",
+      "4.这是个长元音，记住：长元音一定要拉长，发出来才好听。",
+      "5.字母\"a\"、\"o\"常发这个音。",
+      "6.字母组合\"au\"、\"aw\"、\"oa\"、\"augh\"、\"ough\"等也可以发这个音。",
+      "7.字母组合\"al\"也可发这个音，此时其中的\"l\"不发音。"
+    ],
+    "c":[
+        {
+          "name":"字母组合al在大多辅音字母前都发[ɔː],例如：",
+          "values":[
+                "talk-t-al-k [tɔːk] 说",
+                "fall-f-al-l [fɔːl] 落下"
+            ]
+        },{
+        "name":"字母组合au,aw,or,oar,oor,ore在重读音节中发[ɔː],例如：",
+        "values":[
+          "cause-c-au-se [kɔːz] 引起",
+          "taught-t-au-ght [tɔːt] 教",
+          "draw-dr-aw- [drɔː] 画",
+          "awful--aw-ful ['ɔːfʊl] 可怕的",
+          "border-b-or-der ['bɔːdə] 边界",
+          "order--or-der ['ɔːdə] 命令",
+          "blackboard-blackb-oar-d ['blækbɔːd] 黑板",
+          "roar-r-oar- [rɔː] 吼叫",
+          "before-bef-ore- [bɪ'fɔː] 以前",
+          "store-st-ore- [stɔː] 储藏",
+          "door-d-oor- [dɔː] 门",
+          "floor-fl-oor- [flɔː] 地板"
+        ]
+      },{
+        "name":"字母组合ar在w后发[ɔː],例如：",
+        "values":[
+          "warn-w-ar-n [wɔːn] 警告",
+          "warm-w-ar-m [wɔːm] 暖和"
+        ]
+      },{
+        "name":"字母组合ou在ght前发[ɔː],例如：",
+        "values":[
+          "fought-f-ou-ght [fɔːt] 打架",
+          "brought-br-ou-ght [brɔːt] 带来"
+        ]
+      }
+    ]
+}
