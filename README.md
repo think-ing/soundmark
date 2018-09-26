@@ -1,6 +1,6 @@
 # 英语音标学习
 </br>
-</br>* 首页
+</br> *首页
 ------
 </br>![图片](https://github.com/think-ing/soundmark/blob/master/201809261.png)
 </br>
