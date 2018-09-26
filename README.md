@@ -1,9 +1,11 @@
 # soundmark
 英语音标学习
-
-  ##首页
-  ![图片](https://github.com/think-ing/soundmark/blob/master/201809261.png)
-  ##详细分类
-  ![图片](https://github.com/think-ing/soundmark/blob/master/201809262.png)
-  ##详情页
-  ![图片](https://github.com/think-ing/soundmark/blob/master/201809263.png)
+</br>
+</br>##首页
+</br>![图片](https://github.com/think-ing/soundmark/blob/master/201809261.png)
+</br>
+</br>##详细分类
+</br>![图片](https://github.com/think-ing/soundmark/blob/master/201809262.png)
+</br>
+</br>##详情页
+</br>![图片](https://github.com/think-ing/soundmark/blob/master/201809263.png)
